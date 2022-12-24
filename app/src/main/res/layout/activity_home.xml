@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homeg"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+   <com.airbnb.lottie.LottieAnimationView
+       android:layout_width="match_parent"
+       android:layout_height="350dp"
+       android:layout_marginTop="478dp"
+       app:lottie_autoPlay="true"
+       app:lottie_rawRes="@raw/greengrass">
+
+   </com.airbnb.lottie.LottieAnimationView>
+
+   <RelativeLayout
+       android:layout_width="290sp"
+       android:layout_height="270sp"
+       android:layout_marginLeft="50dp"
+       android:layout_marginTop="325dp"
+       android:layout_marginRight="50dp"
+       android:background="@drawable/backgroundbd" />
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="332dp"
+       android:fontFamily="@font/cutive"
+       android:text="Realtime Record"
+       android:textAlignment="center"
+       android:textColor="#FFFFFF"
+       android:textSize="18dp" />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="80dp"
+       android:layout_marginRight="80dp"
+       android:layout_marginTop="358dp"
+       android:fontFamily="@font/cutive"
+       android:textColor="#FFFFFF"
+       android:text="pH:"
+       android:textSize="15dp"
+       android:textStyle="bold" />
+
+   <TextView
+       android:id="@+id/res_ph"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="60dp"
+       android:layout_marginTop="383dp"
+       android:layout_marginRight="70dp"
+       android:layout_marginBottom="2dp"
+       android:background="@drawable/textviewdesign"
+       android:text="PH VALUE"
+       android:textAlignment="center"
+       android:textColor="@color/black"
+       android:fontFamily="@font/cutive"
+       android:textSize="15sp" />
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="80dp"
+       android:layout_marginTop="410dp"
+       android:fontFamily="@font/cutive"
+       android:text="TURBIDITY:"
+       android:textColor="#FFFFFF"
+       android:textSize="15dp"
+       android:textStyle="bold" />
+
+   <TextView
+       android:id="@+id/res_turbid"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="60dp"
+       android:layout_marginTop="430dp"
+       android:layout_marginRight="70dp"
+       android:layout_marginBottom="2dp"
+       android:background="@drawable/textviewdesign"
+       android:text="TUR VALUE"
+       android:textAlignment="center"
+       android:fontFamily="@font/cutive"
+       android:textColor="@color/black"
+       android:textSize="15sp" />
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="80dp"
+       android:layout_marginTop="470dp"
+       android:fontFamily="@font/cutive"
+       android:text="TEMPERATURE:"
+       android:textColor="#FFFFFF"
+       android:textSize="15dp"
+       android:textStyle="bold" />
+   <TextView
+       android:id="@+id/res_temp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="60dp"
+       android:layout_marginRight="70dp"
+       android:text="TUR VALUE"
+       android:layout_marginBottom="2dp"
+       android:textAlignment="center"
+       android:background="@drawable/textviewdesign"
+       android:textColor="@color/black"
+       android:fontFamily="@font/cutive"
+       android:textSize="15dp"
+       android:layout_marginTop="495dp"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="80dp"
+       android:layout_marginTop="520dp"
+       android:fontFamily="@font/cutive"
+       android:text="STATUS:"
+       android:textColor="#8BC34A"
+       android:textSize="15dp"
+       android:textStyle="bold" />
+
+   <TextView
+       android:id="@+id/res_stat"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="60dp"
+       android:layout_marginTop="542dp"
+       android:layout_marginRight="70dp"
+       android:layout_marginBottom="2dp"
+       android:background="@drawable/border"
+       android:fontFamily="@font/cutive"
+       android:text="STATUS"
+       android:textAlignment="center"
+       android:textColor="#FB0E0E"
+       android:textSize="15sp" />
+
+
+
+</RelativeLayout>

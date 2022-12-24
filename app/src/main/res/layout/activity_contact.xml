@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green"
+    tools:context=".ContactActivity"
+    android:orientation="vertical">
+<!--    Phone NUMBER cant autolink-->
+
+
+
+    <TextView
+        android:id="@+id/MobileN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cutive"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:background="@color/white"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"
+        android:text="Mobile Number:"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:padding="15dp"
+        android:fontFamily="@font/arapey"
+        android:textSize="25dp"
+        android:autoLink="phone"
+        android:textColorLink="@color/black"
+        android:text="09556271405"
+        android:layout_marginBottom="8dp"
+        />
+    <TextView
+        android:id="@+id/Facebook1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cutive"
+        android:layout_marginTop="90dp"
+        android:textStyle="bold"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:text="Facebook:"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/cutive"
+        android:padding="15dp"
+        android:text="Solar Powered Water Quality Monitoring System"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+    <TextView
+        android:id="@+id/EmailA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cutive"
+        android:paddingLeft="10sp"
+        android:layout_marginTop="164dp"
+        android:textStyle="bold"
+        android:paddingRight="10sp"
+        android:text="Email Address"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="189dp"
+        android:layout_marginBottom="8dp"
+        android:autoLink="email"
+        android:fontFamily="@font/cutive"
+        android:padding="15dp"
+        android:paddingTop="8dp"
+        android:text="jennyviabrajano@gmail.com,\n\njovithnabua@gmail.com,\n\njenalynapanay@gmail.com"
+        android:textColorLink="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/addressA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10sp"
+        android:layout_marginTop="312dp"
+        android:fontFamily="@font/cutive"
+        android:textStyle="bold"
+        android:paddingRight="10sp"
+        android:paddingTop="5dp"
+        android:text="Home Address"
+        android:textSize="18dp"
+        android:textColor="@color/black"/>
+=
+
+    <TextView
+        android:id="@+id/Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:fontFamily="@font/cutive"
+        android:padding="15dp"
+        android:text="Poblacion Norte Rizal, Nueva Ecija"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+    <TextView
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:padding="15dp"
+        android:layout_marginTop="430dp"
+       android:textColor="@color/black"
+        android:fontFamily="@font/cutive"
+        android:text="--- Enjoy using our app Godbess ---" />
+
+</RelativeLayout>

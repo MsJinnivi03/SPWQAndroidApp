@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pHTrends">
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linechart">
+
+    </com.github.mikephil.charting.charts.LineChart>
+<!--    <com.jjoe64.graphview.GraphView-->
+<!--        android:id="@+id/graph"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="500dip"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+
+<!--    <TextView-->
+<!--        android:layout_width="343dp"-->
+<!--        android:layout_height="324dp"-->
+<!--        android:layout_below="@+id/graph"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="49dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginEnd="49dp"-->
+<!--        android:layout_marginBottom="100dp"-->
+<!--        android:text="pH"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textSize="30dp" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="35dp"-->
+<!--        android:layout_marginTop="678dp"-->
+<!--        android:layout_marginBottom="13dp"-->
+<!--        android:text="Alkalinity High= 7.30 above"-->
+<!--        android:textSize="15dp" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="35dp"-->
+<!--        android:layout_marginTop="645dp"-->
+<!--        android:layout_marginBottom="63dp"-->
+<!--        android:text="Safe or Neutral= 6.90 to 7.29"-->
+<!--        android:textSize="15dp" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="35dp"-->
+<!--        android:layout_marginTop="607dp"-->
+<!--        android:layout_marginBottom="106dp"-->
+<!--        android:text="Acidity High= 6.89 below"-->
+<!--        android:textSize="15dp" />-->
+
+
+</RelativeLayout>

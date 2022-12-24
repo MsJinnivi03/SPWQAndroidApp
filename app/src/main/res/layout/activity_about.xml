@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green"
+    tools:context=".AboutActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:elevation="10dp"
+        android:fontFamily="@font/cutive"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="SPWQ: Solar-powered Water Quality Monitoring System with SMS Notification helps the Aeta Community in Villa Labrador, Rizal, Nueva Ecija to monitor the trends of the water quality of their well of waters."
+        android:textColor="#000"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="10dp"
+
+        android:elevation="10dp"
+        android:fontFamily="@font/cutive"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="It is a friendly application that is easily to use by the user and they can easily see the result of the testing and notify them if the water is safe to drink or not."
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginRight="10dp"
+        android:elevation="10dp"
+        android:fontFamily="@font/cutive"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text=" This System is created to give information and result of quality of water and also give the Realtime Result of water throught online."
+        android:textColor="#000"
+        android:textSize="18sp"
+
+         />
+
+
+</RelativeLayout>

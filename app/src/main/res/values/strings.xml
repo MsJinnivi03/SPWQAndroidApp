@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Solar Powered Water Quality Monitoring System Application
+
+    </string>
+    <string name="autolink">
+
+
+    </string>
+    <string name="graph_date_format">1</string>
+    <string name="dash">1</string>
+</resources>

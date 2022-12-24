@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TurbidityTrends">
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linechart">
+
+    </com.github.mikephil.charting.charts.LineChart>
+
+
+
+<!--    <TextView-->
+<!--        android:layout_width="343dp"-->
+<!--        android:layout_height="324dp"-->
+<!--        android:layout_below="@+id/graph"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="49dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginEnd="49dp"-->
+<!--        android:layout_marginBottom="100dp"-->
+<!--        android:text="Turbidity"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textSize="30dp" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="35dp"-->
+<!--        android:layout_marginTop="678dp"-->
+<!--        android:layout_marginBottom="13dp"-->
+<!--        android:text="Dirty= 3000NTU above"-->
+<!--        android:textSize="15dp" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="35dp"-->
+<!--        android:layout_marginTop="645dp"-->
+<!--        android:layout_marginBottom="63dp"-->
+<!--        android:text="Cloudy= 2051NTU to 2999NTU"-->
+<!--        android:textSize="15dp" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="35dp"-->
+<!--        android:layout_marginTop="607dp"-->
+<!--        android:layout_marginBottom="106dp"-->
+<!--        android:text="Very Clean= 2050NTU below"-->
+<!--        android:textSize="15dp" />-->
+
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "964939760610",
+    "project_id": "spwqapp",
+    "storage_bucket": "spwqapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964939760610:android:20ffc5895ab1e32fb6efbb",
+        "android_client_info": {
+          "package_name": "com.example.waterqualityapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964939760610-pv0o89oenk8idk46k442tt3kfrbtpuri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmpjaEauuHt-FWCfvxgibJqJbz_SgKxME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964939760610-pv0o89oenk8idk46k442tt3kfrbtpuri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964939760610:android:f543d6e7e784b5eab6efbb",
+        "android_client_info": {
+          "package_name": "com.spwqapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964939760610-pv0o89oenk8idk46k442tt3kfrbtpuri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmpjaEauuHt-FWCfvxgibJqJbz_SgKxME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964939760610-pv0o89oenk8idk46k442tt3kfrbtpuri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

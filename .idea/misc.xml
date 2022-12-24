@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Jenny Vi Abrajano/Downloads/trends/SPWQappre-model with Trends/SPWQappre-model/app/src/main/res/layout/activity_about.xml" value="0.22" />
+        <entry key="..\:/Users/Jenny Vi Abrajano/Downloads/trends/SPWQappre-model with Trends/SPWQappre-model/app/src/main/res/layout/activity_char_time.xml" value="0.13125" />
+        <entry key="..\:/Users/Jenny Vi Abrajano/Downloads/trends/SPWQappre-model with Trends/SPWQappre-model/app/src/main/res/layout/activity_contact.xml" value="0.2" />
+        <entry key="..\:/Users/Jenny Vi Abrajano/Downloads/trends/SPWQappre-model with Trends/SPWQappre-model/app/src/main/res/layout/activity_home.xml" value="0.18" />
+        <entry key="..\:/Users/Jenny Vi Abrajano/Downloads/trends/SPWQappre-model with Trends/SPWQappre-model/app/src/main/res/layout/activity_line_date.xml" value="0.1859375" />
+        <entry key="..\:/Users/Jenny Vi Abrajano/Downloads/trends/SPWQappre-model with Trends/SPWQappre-model/app/src/main/res/layout/activity_phtrends.xml" value="0.22" />
+        <entry key="..\:/Users/Jenny Vi Abrajano/Downloads/trends/SPWQappre-model with Trends/SPWQappre-model/app/src/main/res/layout/activity_temperature_trends.xml" value="0.1" />
+        <entry key="..\:/Users/Jenny Vi Abrajano/Downloads/trends/SPWQappre-model with Trends/SPWQappre-model/app/src/main/res/layout/activity_trends.xml" value="0.2" />
+        <entry key="..\:/Users/Jenny Vi Abrajano/Downloads/trends/SPWQappre-model with Trends/SPWQappre-model/app/src/main/res/layout/activity_turbidity_trends.xml" value="0.1" />
+        <entry key="..\:/Users/Jenny Vi Abrajano/Downloads/trends/SPWQappre-model with Trends/SPWQappre-model/app/src/main/res/layout/activity_view.xml" value="0.22" />
+        <entry key="..\:/Users/Jenny Vi Abrajano/Downloads/trends/SPWQappre-model with Trends/SPWQappre-model/app/src/main/res/layout/list_item.xml" value="0.1" />
+        <entry key="..\:/Users/Jenny Vi Abrajano/Downloads/trends/SPWQappre-model with Trends/SPWQappre-model/app/src/main/res/layout/temperature.xml" value="0.2" />
+        <entry key="..\:/Users/Jenny Vi Abrajano/Downloads/trends/SPWQappre-model with Trends/SPWQappre-model/app/src/main/res/menu/menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
